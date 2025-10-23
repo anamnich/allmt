@@ -78614,6 +78614,21 @@ local JSON_DATA = [[
     }
         ]
 ]]
+-- === LOAD JSON DATA ===
+print("[INFO] Mulai load JSON data...")
+
+local success, result = pcall(function()
+    return HttpService:JSONDecode(JSON_DATA)
+end)
+
+if success then
+    print("[INFO] JSON berhasil diload, total data:", #result)
+    movementData = result
+else
+    warn("[ERROR] Gagal decode JSON:", result)
+    movementData = {}
+end
+
 
 -- === FUNGSI ===
 local function getChar()
