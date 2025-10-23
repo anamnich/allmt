@@ -11,6 +11,7 @@ local replaying, loopReplay = false, false
 
 -- Ganti [] dengan teks JSON (contoh dummy di bawah)
 local JSON_DATA = [[
+[
     {
         "cf": [
             843.3492431640625,
@@ -78611,6 +78612,7 @@ local JSON_DATA = [[
         "t": 197.13854045833069,
         "state": "Enum.HumanoidStateType.Running"
     }
+        ]
 ]]
 
 -- === FUNGSI ===
