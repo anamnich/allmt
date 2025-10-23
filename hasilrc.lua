@@ -9,8 +9,7 @@ local AUTO_PLAY_AFTER_LOAD = true  -- true = langsung mainkan
 local movementData, heartbeatConn = {}, nil
 local replaying, loopReplay = false, false
 
-local JSON_DATA = [
-    {
+local JSON_DATA = {
         "cf": [
             843.3492431640625,
             365.04852294921877,
@@ -78610,7 +78609,6 @@ local JSON_DATA = [
         "t": 197.13854045833069,
         "state": "Enum.HumanoidStateType.Running"
     }
-]
 
 -- === FUNGSI ===
 local function getChar()
