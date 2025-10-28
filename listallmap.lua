@@ -101,7 +101,7 @@ Title.Parent = TitleBar
 Title.Size = UDim2.new(1, -80, 1, 0)
 Title.Position = UDim2.new(0, 10, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "ZassXd Terminal"
+Title.Text = "LIST TP ALL MT"
 Title.Font = Enum.Font.SourceSansSemibold
 Title.TextSize = 16
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -201,6 +201,6 @@ local function createButton(text, icon, func)
 end
 
 -- === DAFTAR BUTTON ===
-createButton("nama mt", "⛰️", function()
+createButton("MT NIRWANA", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/nirwana.lua"))()
 end)
