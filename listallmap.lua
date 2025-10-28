@@ -218,3 +218,6 @@ createButton("MT CHIBI", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/chibi.lua"))()
 end)
 
+createButton("MT ATIN", "⛰️", function()
+loadstring(game:HttpGet("https://pastefy.app/9evSZajC/raw"))()
+end)
