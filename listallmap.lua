@@ -201,6 +201,11 @@ local function createButton(text, icon, func)
 end
 
 -- === DAFTAR BUTTON ===
+
+createButton("MT LEMBAYANA", "⛰️", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/lembayana.lua"))()
+end)
+
 createButton("MT NIRWANA", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/nirwana.lua"))()
 end)
