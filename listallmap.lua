@@ -213,3 +213,8 @@ end)
 createButton("MT NYALA", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/nyala.lua"))()
 end)
+
+createButton("MT CHIBI", "⛰️", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/chibi.lua"))()
+end)
+
