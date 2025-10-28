@@ -109,7 +109,7 @@ local function createTeleporterUI()
 	Instance.new("UICorner", frame).CornerRadius = UDim.new(0,12)
 
 	local title = Instance.new("TextLabel", frame)
-	title.Text = "🌀 Keysaa Teleporter"
+	title.Text = "🌀 MT NIRWANA"
 	title.Size = UDim2.new(1,-10,0,25)
 	title.Position = UDim2.new(0,8,0,5)
 	title.Font = Enum.Font.GothamBold
