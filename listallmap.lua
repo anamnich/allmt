@@ -230,3 +230,8 @@ createButton("MT AZURION EXP", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/azurionexp.lua"))()
 end)
 
+createButton("MT YAUDAH DEH", "⛰️", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/yaudahdeh.lua"))()
+end)
+
+
