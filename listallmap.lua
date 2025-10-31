@@ -226,12 +226,14 @@ createButton("MT FUNNY", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/funny.lua"))()
 end)
 
-createButton("MT AZURION EXP", "⛰️", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/azurionexp.lua"))()
+createButton("MT GEMI", "⛰️", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/gemi.lua"))()
 end)
 
 createButton("MT YAUDAH DEH", "⛰️", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/yaudahdeh.lua"))()
 end)
 
-
+createButton("MT YAUDAH DEH", "⛰️", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anamnich/allmt/refs/heads/main/yaudahdeh.lua"))()
+end)
